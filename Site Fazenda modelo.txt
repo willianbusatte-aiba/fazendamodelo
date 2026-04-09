@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fazenda Modelo</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #2b2b2b;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+}
+
+.card h2 {
+    margin: 0 0 10px;
+}
+
+.card p {
+    color: #bbb;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #444;
+    color: #fff;
+}
+
+button:hover {
+    background: #666;
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaa;
+}
+
+.copy-btn {
+    background: #000;
+    border: 1px solid #fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌱 Fazenda Modelo</h1>
+    <div class="subtitle">
+        Formulários de campo — cole os links abaixo após criar cada formulário
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>Operações</h2>
+            <p>Registro diário de operações no campo</p>
+            <div class="input-group">
+                <input placeholder="https://forms...">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Adubação</h2>
+            <p>Registro de adubações por talhão e cultura</p>
+            <div class="input-group">
+                <input placeholder="https://forms...">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Defensivos</h2>
+            <p>Aplicações de herbicidas, fungicidas e inseticidas</p>
+            <div class="input-group">
+                <input placeholder="https://forms...">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Doações</h2>
+            <p>Registro de produtos doados às instituições</p>
+            <div class="input-group">
+                <input placeholder="https://forms...">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Visitas</h2>
+            <p>Controle de visitas técnicas e institucionais</p>
+            <div class="input-group">
+                <input placeholder="Cole o link">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Plantio</h2>
+            <p>Registro de plantio por cultura e talhão</p>
+            <div class="input-group">
+                <input placeholder="Cole o link">
+                <button>Abrir</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <span>Cole o link de cada formulário do Google Forms</span>
+        <button class="copy-btn">Copiar todos os links</button>
+    </div>
+
+</div>
+
+</body>
+</html>
